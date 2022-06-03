@@ -1,4 +1,9 @@
-from cmath import pi
+from math import pi
+
+#1. Class Circle
+#   A Circle instance accepts attribute radius (r)
+#   It has a method area that returns the area (A) of the circle using the formula A=πr2
+#   It has a method to calculate circumference (c) using the formula C=2πr
 
 class Circle():
     def __init__(self, r):
@@ -20,7 +25,11 @@ print(NewCircle.circumference())
 
 
 
-# 2.
+# 2.Class Square
+#   A Square instance accepts the attribute side (a)
+#   It has method area that returns the area (A) of the square using the formula A=a2
+#   It has a method to calculate the perimeter (P) of the square using the formula P=4a
+
 class Square():
     def __init__(self, a):
         self.side = a
@@ -37,7 +46,12 @@ print(NewSquare.perimetre())
 
 
 
-# 3.
+# 3.Class Rectangle
+#   A Rectangle instance accepts two sides of a rectangle (w,l)
+#   It has method to calculate the area (A) of the rectangle using the formula A=wl
+#   It has a method to calculate the perimeter (P) of the rectangle using the formula P=2(l+w)
+
+
 class Rectangle():
     def __init__(self,l,w):
         self.side1 = l
@@ -56,7 +70,11 @@ print(NewRectangle.perimetre())
 
 
 
-# 4.
+# 4.Class Sphere
+#   A Sphere Instance accepts the radius of the sphere (r)
+#   It has a method to calculate the surface area (A) using the formula A=4πr2
+#   It has a method to calculate the volume (V) of the sphere using the formula V = 4/3(πr3)
+
 class Sphere():
     def __init__(self, r):
         self.radius = r
