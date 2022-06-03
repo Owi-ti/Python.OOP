@@ -54,14 +54,14 @@ print(NewSquare.perimetre())
 
 class Rectangle():
     def __init__(self,l,w):
-        self.side1 = l
-        self.side2 =w
+        self.legnth = l
+        self.width=w
 
     def area(self):
-        return self.side1*self.side2
+        return (self.legnth*self.width)
     
     def perimetre(self):
-        return 2*(self.side1 + self.side2)
+        return 2*(self.legnth + self.width)
 
 NewRectangle = Rectangle(8,6)
 print(NewRectangle.area())
